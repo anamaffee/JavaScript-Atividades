@@ -1,9 +1,11 @@
- const caixote = document.getElementById("caixote");
-      caixote.classList.add("");
+const lampada = document.getElementById("lampada");
+const btnLigar = document.getElementById("btnLigar");
+const btnDesligar = document.getElementById("btnDesligar");
 
+      btnLigar.addEventListener("click", () => {
+      lampada.src = "./lampada-acesa.jfif"; 
+      });
+            btnDesligar.addEventListener("click", () => {
+            lampada.src = "./lampada apagada.jpg"; 
+            });
 
-const btnTrocaImg = document.getElementsByClassName("controle")
-    btnTrocaImg.addEventListener("click",()=>{
-          caixaTexto.classList.remove("apagada");
-          caixaTexto.classList.add("acesa");
-    });
