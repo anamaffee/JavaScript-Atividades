@@ -7,7 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="Imc">
+       <h2>Calculadora de IMC</h2>
+       
+            <input type="number" id="altura" placeholder="Altura (ex: 1.66)">
+            <input type="number" id="peso" placeholder="Peso (ex: 65)">
 
+            <button onclick="calcular()">Calcular meu IMC</button>
+            <button onclick="repetir()" id="btn-repetir">Repetir o calculo</button>
+
+    <div id="resultado"></div>
+
+
+</div>
     <script src="./script.js"></script>
 </body>
 </html>
